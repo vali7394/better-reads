@@ -6,3 +6,9 @@ The app design is more backend centric hence the UI (UX) is very basic.
 **System Design :**
 
 [![Screen-Shot-2021-09-22-at-11-34-36-AM.png](https://i.postimg.cc/rssm8zXj/Screen-Shot-2021-09-22-at-11-34-36-AM.png)](https://postimg.cc/gL9dsz0L)
+
+**ERD**
+
+[![Screen-Shot-2021-09-23-at-9-29-37-AM.png](https://i.postimg.cc/fbHstY9Y/Screen-Shot-2021-09-23-at-9-29-37-AM.png)](https://postimg.cc/JyBvSDKh)
+
+
