@@ -12,3 +12,42 @@ The app design is more backend centric hence the UI (UX) is very basic.
 [![Screen-Shot-2021-09-23-at-9-29-37-AM.png](https://i.postimg.cc/fbHstY9Y/Screen-Shot-2021-09-23-at-9-29-37-AM.png)](https://postimg.cc/JyBvSDKh)
 
 
+```json
+1) BookBy Id
+Table BooksById {
+  bookId  [pk]
+  name 
+  desc 
+  cover 
+  authorName
+  authorId
+  
+ }
+ 2) Book By Author ID
+Table AuthorById {
+  authorId [pk]
+  publishedDate [c]
+  name
+  bookId
+  bookName
+  cover
+}
+3) UserBook by user id & Book Id
+Table UserBook {
+  userId  [pk] 
+  bookId  [pk]
+  status varchar
+  start
+  end
+  rating 
+  status
+  }
+4) userBooks by userId
+Table User{
+  userId [pk] 
+  status[c]
+  TimeUUid [c]
+  bookId 
+  rating
+}
+```
