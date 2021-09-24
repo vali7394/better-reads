@@ -13,7 +13,7 @@ The app design is more backend centric hence the UI (UX) is very basic.
 
 **Cassandra DataModeling :**
 
-Best Practice to design the datamodeling in cassandra by doing the access patterns[i.e. queries used in the code]. Below are the queries we use in the application to access the data to present to the user.
+Best Practice to design the datamodeling in cassandra by creating the access patterns[i.e. queries used in the code]. Below are the queries we use in the application to access the data to present to the user.
 
 ```json
 1) BookBy Id
