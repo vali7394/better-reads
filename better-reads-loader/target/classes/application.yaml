@@ -1,0 +1,21 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: readbook
+      username: lKHvLorqGSIlFKHtszlpubfz
+      password: xILip7cSZJC,TPzmDhzIpCXDu9QDZF6YAm7+.jRQtuo_dbpM1pdvNZvsP1r_Y1DrI-fb6TcRPs4-tkqhYsgGg28ugbw,uvgXEW,NCyDGvBQXZnpKKcL0jkltZ4Zd0-cc
+      schema-action: create_if_not_exists
+
+# Below Data dump location has sample data. Actual open lib data is huge and available to download @ https://openlibrary.org/developers/dumps
+datadump.location:
+   authors: /Users/vali94/Documents/github-repos/better-reads/authors-sample.txt
+   works: /Users/vali94/Documents/github-repos/better-reads/works-sample.txt
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-astra.zip
+
+astra.db:
+  id: ee098673-31be-4492-b29c-38cb7e58058e-1
+  region: us-east1
+  keyspace: goodreads
+  application.token: AstraCS:lKHvLorqGSIlFKHtszlpubfz:ebb24a796665abc0a0555f5e69532bcae8dbabd6d1dedc230e16362304484785
